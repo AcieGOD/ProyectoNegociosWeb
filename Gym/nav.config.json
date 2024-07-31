@@ -1,0 +1,62 @@
+{
+  "public": [
+    
+    {
+      "id": "Menu_Creatina",
+      "nav_url": "index.php?page=landing-Creatina",
+      "nav_label":"<i class=\"fas fa-sign-in-alt\"></i>&nbsp;Creatina"
+    },
+    {
+      "id": "Menu_Proteina",
+      "nav_url": "index.php?page=landing-Proteina",
+      "nav_label":"<i class=\"fas fa-sign-in-alt\"></i>&nbsp;Proteina"
+    },
+    {
+      "id": "Menu_PreEntreno",
+      "nav_url": "index.php?page=landing-PreEntreno",
+      "nav_label":"<i class=\"fas fa-sign-in-alt\"></i>&nbsp;PreEntreno"
+    },
+    {
+      "id": "Menu_Aminoacidos",
+      "nav_url": "index.php?page=landing-Aminoacidos",
+      "nav_label":"<i class=\"fas fa-sign-in-alt\"></i>&nbsp;Aminoacidos"
+    },
+    {
+      "id": "Menu_SignIn",
+      "nav_url": "index.php?page=Sec_Login",
+      "nav_label":"<i class=\"fas fa-sign-in-alt\"></i>&nbsp;Iniciar Sesión"
+    },
+    {
+      "id": "Menu_Mantenimiento",
+      "nav_url": "index.php?page=Mantenimientos-MantenimientoInventario",
+      "nav_label":"<i class=\"fas fa-sign-in-alt\"></i>&nbsp;Mantenimiento"
+    }
+    
+    
+    
+
+
+  ],
+  "private": [
+    {
+      "id":"Menu_PaymentCheckout",
+      "nav_url": "index.php?page=Checkout_Checkout",
+      "nav_label": "Carretilla de Compra"
+    },
+    {
+      "id": "Menu_SignIn",
+      "nav_url": "index.php?page=Sec_Login",
+      "nav_label":"<i class=\"fas fa-sign-in-alt\"></i>&nbsp;Iniciar Sesión"
+    },
+    {
+      "id": "Menu_SignUp",
+      "nav_url": "index.php?page=Sec_Register",
+      "nav_label":"<i class=\"fas fa-sign-in-alt\"></i>&nbsp;Crear Cuenta"
+    },
+    {
+      "id": "Menu_Usuarios",
+      "nav_url": "index.php?page=landing-Usuario",
+      "nav_label":"<i class=\"fas fa-sign-in-alt\"></i>&nbsp;Usuarios"
+    }
+  ]
+}

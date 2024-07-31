@@ -1,0 +1,164 @@
+@import url('https://fonts.googleapis.com/css2?family=Rock+Salt&display=swap');
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+/* Contenedor principal para el registro */
+.login-container {
+    position: relative;
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden;
+    background-color: black;
+}
+
+/* Overlay con fondo semitransparente y contenido centrado */
+.overlay {
+    position: relative;
+    z-index: 1;
+    background: rgba(0, 0, 0, 0.8);
+    padding: 40px;
+    border-radius: 10px;
+    text-align: center;
+    color: white;
+    width: 90%;
+    max-width: 400px;
+    box-shadow: 0 0 15px rgba(0, 0, 0, 0.5); /* Agregar sombra para mejorar contraste */
+}
+
+/* Imagen de fondo del contenedor */
+.login-container img {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    opacity: 0.3;
+    z-index: 0;
+}
+
+/* Estilo del título principal */
+h1 {
+    font-family: 'Rock Salt', cursive;
+    font-size: 4em;
+    margin: 0 0 20px;
+}
+
+/* Estilo del título del formulario */
+h2 {
+    font-family: 'Rock Salt', cursive; /* Aplicar la misma fuente aquí */
+    font-size: 2em;
+    margin-bottom: 20px;
+}
+
+/* Estilo para los grupos de campos del formulario */
+.form-group {
+    position: relative;
+    margin-bottom: 20px;
+    text-align: left;
+}
+
+/* Estilo para las etiquetas de los campos del formulario */
+.form-group label {
+    display: block;
+    font-size: 1em;
+    margin-bottom: 5px;
+}
+
+/* Estilo para los campos de entrada */
+.form-group input {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    font-size: 1em;
+    background-color: #fff; /* Fondo blanco para los campos de entrada */
+    color: #333; /* Color de texto negro para mejor contraste */
+    box-sizing: border-box;
+}
+
+/* Estilo para los campos de entrada cuando están enfocados */
+.form-group input:focus {
+    border-color: #ff9900; /* Color del borde al enfocarse */
+    outline: none;
+}
+
+/* Contenedor para el campo de contraseña y el ícono */
+.password-container {
+    position: relative;
+}
+
+/* Estilo para el ícono de ojo */
+.password-toggle {
+    width: 24px; /* Tamaño del ícono */
+    height: 24px;
+    cursor: pointer;
+    position: absolute;
+    right: 10px;
+    top: 50%;
+    transform: translateY(-50%); /* Centrar verticalmente */
+}
+
+/* Estilo específico para los íconos en el campo de contraseña */
+.password-toggle#new-password-toggle {
+    right: 40px; /* Ajusta la posición del primer ícono */
+}
+
+/* Estilo específico para los íconos en el campo de confirmar contraseña */
+.password-toggle#confirm-password-toggle {
+    right: 40px; /* Ajusta la posición del segundo ícono */
+}
+
+/* Estilo para los botones del formulario */
+.form-buttons {
+    display: flex;
+    justify-content: space-between;
+}
+
+/* Estilo general para los botones */
+.btn {
+    background-color: #ff9900;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 1em;
+    transition: background-color 0.3s;
+    margin: 10px;
+}
+
+/* Estilo para el botón de registro */
+.btn:hover {
+    background-color: #e68a00;
+}
+
+/* Estilo para el botón de registro */
+.register-btn {
+    background-color: #007bff;
+}
+
+.register-btn:hover {
+    background-color: #0066cc;
+}
+
+/* Estilo para el botón de volver */
+.back-btn {
+    background-color: #6c757d;
+}
+
+.back-btn:hover {
+    background-color: #5a6268;
+}
